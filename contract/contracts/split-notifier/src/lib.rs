@@ -11,8 +11,7 @@ pub struct SplitNotifier;
 
 #[contractimpl]
 impl SplitNotifier {
-    pub fn notify_completed(env: Env, bill_id: String, creator: Address) {
-        creator.require_auth();
+    pub fn notify_completed(env: Env, bill_id: String, _creator: Address) {
         let key = DataKey::Completed(bill_id.clone());
         env.storage().persistent().set(&key, &true);
 

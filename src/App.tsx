@@ -99,16 +99,21 @@ function App() {
 
       // Start real-time contract status polling to check when registry changes to Paid ✅
       pollIntervalRef.current = setInterval(async () => {
-        const onChainStatus = await getSplitStatusOnChain(generatedBillId);
-        if (onChainStatus && onChainStatus.participants) {
-          setParticipants((prev) =>
-            prev.map((p) => {
-              const match = onChainStatus.participants.find(
-                (sp: any) => sp.address === p.recipient
-              );
-              return match ? { ...p, onChainPaid: match.paid } : p;
-            })
-          );
+        try {
+          const onChainStatus = await getSplitStatusOnChain(generatedBillId);
+          if (onChainStatus && onChainStatus.participants) {
+            setParticipants((prev) =>
+              prev.map((p) => {
+                const match = onChainStatus.participants.find(
+                  (sp: any) => sp.address === p.recipient
+                );
+                return match ? { ...p, onChainPaid: match.paid } : p;
+              })
+            );
+          }
+        } catch (e) {
+          // Quietly log polling status without throwing uncaught exceptions in the console
+          console.log("Polling on-chain status... (waiting for ledger indexing)");
         }
       }, 3000);
 

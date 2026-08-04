@@ -151,6 +151,6 @@ timeline
 ## 🚀 Let's Build a Privacy-First Future
 **AetherSplit** is bringing essential privacy tools to Stellar. Try it out today!
 
-* **Live App:** [https://aether-split.vercel.app/](https://aether-split.vercel.app/)
-* **Contract Address (BillRegistry):** `CBHKZDU55XJN2OUCXFMWEAM2IVAUINDCN4JDHEYT7NX325UOSVGQPZVO`
+* **Live App:** [https://aether-split-level-4.vercel.app/](https://aether-split-level-4.vercel.app/)
+* **Contract Address (BillRegistry):** `CCCBBGS27DSTKSCY4ERJXZBLZHVBPDYTBB3O3HDI73NUB5HXSSELZOQ7`
 * **Contact:** info@aethersplit.io

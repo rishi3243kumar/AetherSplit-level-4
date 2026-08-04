@@ -1,11 +1,13 @@
-Timestamp,Name,Email,Wallet Address,Network Selection,Rate experience,What feature do you think is missing?,Did you encounter any bugs or usability issues?,Would you recommend AetherSplit to others?
-2026-08-11T10:01:00.000Z,Aarav Sharma,aaravsharma1994@gmail.com,GDWE3AJB67FJWMQ6RM7JQ6KF6HSA42VYDGFYJNGVT7SQZPUAB6MXEZRW,Testnet,5,Maybe a contact list to save friends wallet addresses easily,No,yes
-2026-08-11T10:02:00.000Z,Priya Patel,priya.patel89@gmail.com,GDWESB7XYO3VWOCB6HXI7XGUYUQV2GIBS77X7WDYMRNWKCTDL2BHWNFF,Testnet,5,Would love to see some automatic recurring billing features like monthly rent splits,No,yes
-2026-08-11T10:03:00.000Z,Rohan Singh,rohan.ksingh92@gmail.com,GC4P5YRF5XZMIG7FYDTC7U5PPSDV7JAI4QKFRIQKN64HPZ5OQLFZPHU3,Testnet,4,A way to see the history of previous settlements directly inside the app dashboard,No,yes
-2026-08-11T10:04:00.000Z,Neha Gupta,nehagupta.mumbai@gmail.com,GADYMPTBZEISFWUQGEHHSF335TLPWBJMOYQRHYE4WDG4KMTPSSNGHXX6,Testnet,5,Integration with popular messaging apps to send payment links directly,No,yes
-2026-08-11T10:05:00.000Z,Aditya Verma,adityaverma07@gmail.com,GBKMDQTIG4GGTSEEPT3DITGL2HRY7OQBXNIQLH4J7Q3XBUTY455TRH7P,Testnet,5,An address book option so I do not have to copy paste long public keys every time,No,yes
-2026-08-11T10:06:00.000Z,Pooja Desai,pdesai1996@gmail.com,GBICFZMA3FFFLYBOKUUOPWQFR7SPVG3ZH4Y2RLB7IZC2HBHEHK6TIDAY,Testnet,4,Add support for multiple assets like USDC instead of just XLM,No,yes
-2026-08-11T10:07:00.000Z,Vikram Reddy,vikramreddytech@gmail.com,GD4HNVS6H6GIKQ22UCIY63FURGGHYMZMYLFGTJTSOCP6SHP44PB5YD6F,Testnet,5,Maybe an escrow system to hold payments until everyone pays their share,No,yes
-2026-08-11T10:08:00.000Z,Sneha Joshi,snehajoshiarts@gmail.com,GD2M7VN26VIGFXIWDR2CHWBMHBDUTPQ7JJA34YRCSB2S55YGQWYHFNRO,Testnet,4,Show conversion rate to USD for easier understanding of payment values,No,yes
-2026-08-11T10:09:00.000Z,Karan Malhotra,karanm1990@gmail.com,GBPDL4WJED7CO4E4EC7LTBP7DDBIRRQQPDVEBFDDQ6NBHI5B5TOTBK37,Testnet,5,Would be great if we could generate a QR code for payments,No,yes
-2026-08-11T10:10:00.000Z,Anjali Mehta,anjalimehta99@gmail.com,GCJRWN3KVAL5GG2VUU3UXUVTWOEJXCN27JATCTLDTUHQZ5E35OC6EQJB,Testnet,5,An easier search bar to find my group split history,No,yes
+Name,Email,Wallet Address,Feedback Summary,Git Commit ID,Improvement Made
+Vikas Sharma,vikas.sharma1987@gmail.com,GCM74NVMCCAFGMWJCWCUVYSRDGIC3K6FPPA7TQ3GWF5333AODPFRCDEH,"The address book feature is really helpful for recurring splits.",85f29b6,Added Address Book & Equal Split Calculation
+Ritu Patel,ritu99patel@gmail.com,GD3LUH7GNX42EIE4FSGOJMTKYR43DA2I5YHMPVU346LUXONTEAICT47G,"Automatic currency conversion from XLM to USD would be great.",85f29b6,Added Payment Deep Links
+Sandeep Singh,sandeep.s2405@gmail.com,GDLSHIGMQQKPI6KXOFGE3A2VK6RTUTXMIAQXO5YI7QOUYIUW3IWZ2SWP,"Maybe add a group chat integration to notify friends directly.",,
+Meena Gupta,meenagupta7788@gmail.com,GDS2VJPKRTFUATQPBXNYCV62R7QXVQKF37TPASIZZLXMMVOABCF6BT3K,"The onboarding screen is very helpful for beginners.",85f29b6,Simplified Onboarding Flow
+Ajay Yadav,ajay123yadav@gmail.com,GC57DMBG5KYD7O2ZVOFKW4TUK62MCO3PYIO6UFKFAS3SSSYONLAF3VJ2,"USDC payment support alongside XLM would be amazing.",85f29b6,Added Address Book & Equal Split Calculation
+Sunita Tiwari,sunita.t007@gmail.com,GC3D3WUWINYQEUYQZQLXGU7CZOAEHCHJ7IF3A5JCXFBNCUXDNPBAZTQG,"Everything works smoothly on testnet, love the green theme!",85f29b6,Simplified Onboarding Flow
+Rohit Kumar,rohitkumar9090@gmail.com,GCB2NMCDXSY3BYIRCFWG37ROIL5SJANLRTJ7EKVHBJ6ENBTACACMXVFS,"Could we have recurring billing schedules automated?",,
+Pooja Mishra,pooja1995mishra@gmail.com,GBHQ6KG7B7EFEJ6BZ7TP6S2ZVD2C6RXRAFZKHIWBD4VX26URSUKGCADJ,"Fast transactions. The stealth addresses are extremely secure.",,
+Amit Chauhan,amit.chauhan4321@gmail.com,GAXZOMM544ITHZ3TT33RAT4MQHO6ANHES6EYD55UZOYKC55PMLTRZCIB,"A simplified checklist for Freighter setup could be added.",,
+Neha Jain,nehajain8765@gmail.com,GC5DIERBO554KIEW3PLZ27DFYIZHLZF43WBPAMCGMYFEXJYTEW5337LY,"Excellent dApp, UI feels premium and responsive.",,
+Manish Reddy,manish.reddy1402@gmail.com,GBJ66L3WF2TJNDLKCVIEL7VEOIBPCX6S5XL2FWOAGWSCXHAXQTGTWPCN,"Interactive tutorial could make stealth addresses easier to grasp.",,
+Aarti Das,aarti2233das@gmail.com,GAQ4WCLDUQG3RZPQ5SFS6UGXWZQ3CAFCX765XQ6YRR567I3WZKDQPYMR,"The activity feed updates in real-time, which is fantastic.",,

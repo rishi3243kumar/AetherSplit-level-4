@@ -124,8 +124,11 @@ impl SplitBillRegistry {
         }
 
         if all_paid {
-            let notifier_client = SplitNotifierClient::new(&env, &bill.notifier);
-            notifier_client.notify_completed(&bill_id, &bill.creator);
+            // Emit notify_completed event directly to avoid nested cross-contract auth/indexing traps on Testnet
+            env.events().publish(
+                (Symbol::new(&env, "notify_completed"), bill_id),
+                (),
+            );
         }
     }
 

@@ -36,15 +36,15 @@ export const Header: React.FC<HeaderProps> = ({
             width: '2rem',
             height: '2rem',
             borderRadius: '0.5rem',
-            background: 'linear-gradient(135deg, #a78bfa, #ec4899)',
+            background: 'linear-gradient(135deg, #10b981, #f59e0b)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center'
           }}>
             <Coins size={18} style={{ color: 'white' }} />
           </div>
-          <span className="logo" style={{ background: 'linear-gradient(135deg, #a78bfa 0%, #ec4899 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: 800 }}>
-            StellarSplit
+          <span className="logo" style={{ background: 'linear-gradient(135deg, #10b981 0%, #f59e0b 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: 800 }}>
+            AetherSplit
           </span>
         </div>
 
@@ -61,9 +61,9 @@ export const Header: React.FC<HeaderProps> = ({
                 style={{ 
                   cursor: 'pointer', 
                   outline: 'none',
-                  background: 'rgba(139, 92, 246, 0.1)',
-                  color: '#c084fc',
-                  borderColor: 'rgba(139, 92, 246, 0.2)'
+                  background: 'rgba(16, 185, 129, 0.1)',
+                  color: '#34d399',
+                  borderColor: 'rgba(16, 185, 129, 0.2)'
                 }}
                 title="Copy Address"
               >
